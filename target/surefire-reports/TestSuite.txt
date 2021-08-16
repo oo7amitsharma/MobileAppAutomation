@@ -1,0 +1,21 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 189.74 s <<< FAILURE! - in TestSuite
+AutomationFramework.mobile.ShaadiAndroidApp.sendConnectiontoPrimiumMatch  Time elapsed: 7.16 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at AutomationFramework.mobile.ShaadiAndroidApp.sendConnectiontoPrimiumMatch(ShaadiAndroidApp.java:117)
+
+AutomationFramework.mobile.ShaadiAndroidApp.sendConnectiontoNewMatch  Time elapsed: 36.132 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'M5337769', ip: '172.30.128.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_66'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {64bit: false, acceptSslCert: false, acceptSslCerts: false, adbExecTimeout: 120000, appActivity: com.shaadi.android.ui.splas..., appPackage: com.shaadi.android, automationName: uiautomator2, browserstack.appium_version: 1.17.0, browserstack.is_hub_canary: false, browserstack.minOSVersion: 5.0, bundleID: com.shaadi.android, bundleId: com.shaadi.android, chromeOptions: {w3c: false}, chromedriverPort: 18081, chromedriverPorts: [[18111, 18121]], databaseEnabled: false, detected_language: selenium/3.141.59 (java win..., device: google pixel 3, deviceApiLevel: 28, deviceManufacturer: Google, deviceModel: Pixel 3, deviceName: 88PX01Z40, deviceScreenDensity: 440, deviceScreenSize: 1080x2160, deviceUDID: 88PX01Z40, enablePerformanceLogging: false, javascriptEnabled: true, locationContextEnabled: false, mobile: {browser: mobile, version: Google Pixel 3-9.0}, nativeWebScreenshot: true, networkConnectionEnabled: true, newCommandTimeout: 0, new_bucketing: true, orig_os: android, osVersion: 9.0, os_version: 9.0, pixelRatio: 2.75, platform: ANDROID, platformName: Android, platformVersion: 9, realMobile: true, skipServerInstallation: true, statBarHeight: 66, systemPort: 8201, takesScreenshot: true, udid: 88PX01Z40, uiautomator2ServerLaunchTimeout: 60000, version: , viewportRect: {height: 1962, left: 0, top: 66, width: 1080}, warnings: {}, webStorageEnabled: false}
+Session ID: d0c30cf123d11243746ffc54ac9228b96eb6a79d
+*** Element info: {Using=xpath, value=//android.widget.TextView[@text='New Matches']}
+	at AutomationFramework.mobile.ShaadiAndroidApp.sendConnectiontoNewMatch(ShaadiAndroidApp.java:157)
+
